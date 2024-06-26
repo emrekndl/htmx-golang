@@ -3,14 +3,17 @@
 <html lang="en">
 
 <head>
+    <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link href="css/style.css" rel="stylesheet">
+    <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.js"
+        integrity="sha384-Xh+GLLi0SMFPwtHQjT72aPG19QvKB8grnyRbYBNIdHWc2NkCrz65jlU7YrzO6qRp"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     Count {{ .Count }}
+    <button hx-post="/count">Count</button>
 </body>
 
 </html>

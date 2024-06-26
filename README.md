@@ -3,8 +3,8 @@
 ![HTMX Banner](https://img.shields.io/badge/%3C/%3E%20htmx-3D72D7?style=for-the-badge&logo=mysl&logoColor=white)
 ![Golang Banner](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-![Go Version](https://img.shields.io/github/go-mod/go-version/golang/go)
-![HTMX Version](https://img.shields.io/badge/htmx-1.8.4-blue)
+![Go Version](https://img.shields.io/github/go-mod/go-version/emrekndl/htmx-golang)
+![HTMX Version](https://img.shields.io/badge/htmx-2.0.0-blue)
 
 Bu proje, Go dilini kullanarak `htmx` ile dinamik bir web uygulaması oluşturmayı göstermektedir. Go tarafında `echo` framework'ü ile sunucu sağlanmaktadır.
 
